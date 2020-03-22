@@ -3,7 +3,7 @@ Description=KDE Plasma Workspace
 Requires=ksmserver.service kuiserver.service kded.service kactivitymanagerd.service
 
 [Service]
-ExecStart=/usr/bin/kstart5 plasmashell --no-respawn
+ExecStart=/usr/bin/kstart5 plasmashell
 ExecStop=/usr/bin/kquitapp5 plasmashell
 Restart=on-failure
 KillMode=none
